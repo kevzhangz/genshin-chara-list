@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Website Icon -->
+    <link rel="icon" href="img/navicon.png" type="image/gif">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome Icon -->
+    <script src="https://kit.fontawesome.com/1f95d7c21e.js" crossorigin="anonymous"></script>
+    <title>Genshin Characters</title>
+</head>
+
+<body>
+
+    <!-- Theme Button -->
+    <button type="submit" class="theme-switch"><i id="theme-icon" class="far fa-moon"></i></button>
+
+    <!-- Navbar -->
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="check-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <img class="nav-icon" src="img/navicon.png">
+        <ul class="close">
+            <li><a class="nav-items" href="#">Home</a></li>
+            <li><a class="nav-items" href="#">About</a></li>
+            <li><a class="nav-items" href="#mondstadt">Mondstadt</a></li>
+            <li><a class="nav-items" href="#liyue">Liyue</a></li>
+            <li><a class="nav-items" href="#inazuma">Inazuma</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Hero -->
+    <section class="hero">
+        <!-- <div class="hero-inner"> -->
+            <h3 class="hero-text">Genshin Character List</h3>
+            <a href="#mondstadt">
+                <i class="fas scroll-down fa-arrow-circle-down"></i>
+            </a>
+        <!-- </div> -->
+    </section>
+
+    <div class="characters">
+        <!-- Mondstadt Characters -->
+        <section id="mondstadt" class="container mt-4">
+            <h2 class="region-name">// Mondstadt</h2>
+            <div class="row">
+                <div class="col-md-2">
+                    <img class="chara-img" id="albedo" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/mondstadt/albedo.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="chara-img" id="amber" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/mondstadt/amber.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="chara-img" id="barbara" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/mondstadt/barbara.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="chara-img" id="bennett" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/mondstadt/bennett.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="chara-img" id="diluc" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/mondstadt/diluc.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="chara-img" id="diona" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/mondstadt/diona.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="chara-img" id="eula" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/mondstadt/eula.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="chara-img" id="fischl" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/mondstadt/fischl.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="chara-img" id="jean" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/mondstadt/jean.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="chara-img" id="kaeya" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/mondstadt/kaeya.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="chara-img" id="klee" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/mondstadt/klee.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="chara-img" id="lisa" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/mondstadt/lisa.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="chara-img" id="mona" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/mondstadt/mona.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="chara-img" id="noelle" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/mondstadt/noelle.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="chara-img" id="razor" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/mondstadt/razor.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="chara-img" id="rosaria" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/mondstadt/rosaria.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="chara-img" id="sucrose" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/mondstadt/sucrose.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="chara-img" id="venti" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/mondstadt/venti.png">
+                </div>
+            </div>
+        </section>
+
+        <!-- Liyue Characters -->
+        <section id="liyue" class="container mt-5">
+            <h2 class="region-name">// Liyue</h2>
+            <div class="row">
+                <div class="col-md-2">
+                    <img class="chara-img" id="beidou" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/liyue/beidou.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="chara-img" id="chongyun" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/liyue/chongyun.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="chara-img" id="yanfei" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/liyue/feiyan.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="chara-img" id="ganyu" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/liyue/ganyu.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="chara-img" id="hu-tao" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/liyue/hutao.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="chara-img" id="keqing" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/liyue/keqing.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="chara-img" id="ningguang" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/liyue/ningguang.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="chara-img" id="qiqi" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/liyue/qiqi.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="chara-img" id="tartaglia" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/liyue/tartaglia.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="chara-img" id="xiangling" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/liyue/xiangling.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="chara-img" id="xiao" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/liyue/xiao.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="chara-img" id="xingqiu" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/liyue/xingqiu.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="chara-img" id="xinyan" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/liyue/xinyan.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="chara-img" id="zhongli" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/liyue/zhongli.png">
+                </div>
+            </div>
+        </section>
+
+        <!-- Inazuma Characters -->
+        <section id="inazuma" class="container mt-5">
+            <h2 class="region-name">// Inazuma</h2>
+            <div class="row">
+                <div class="col-md-2">
+                    <img class="chara-img" id="ayaka" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/inazuma/ayaka.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="chara-img" id="kazuha" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/inazuma/kazuha.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="chara-img" id="kokomi" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/inazuma/kokomi.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="chara-img" id="sara" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/inazuma/sara.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="chara-img" id="sayu" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/inazuma/sayu.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="chara-img" id="raiden" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/inazuma/shougun.png">
+                </div>
+                <div class="col-md-2">
+                    <img class="chara-img" id="yoimiya" data-bs-toggle="modal" data-bs-target="#charaModal" src="img/characters/inazuma/yoimiya.png">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Modal Characters Detail -->
+    <div class="modal fade" id="charaModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="charaModalLabel">Character</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body chara-detail">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+<footer>
+    <div class="footer">
+        <p>My Social Media</p>
+        <a class="footer-icon" target="_blank" href="https://www.instagram.com/kevzhangz/"><i class="fab fa-instagram"></i></a>
+        <a class="footer-icon" target="_blank" href="https://github.com/kevzhangz"><i class="fab fa-github"></i></a>
+        <a class="footer-icon" target="_blank" href="https://www.linkedin.com/in/kevin-4aa226217/"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <div class="footer-bottom">
+        <p>Copyright &copy; 2021 Made by Kevin</p>
+    </div>
+</footer>
+</html>
