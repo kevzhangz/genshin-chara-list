@@ -144,6 +144,7 @@ nav ul li a:hover {
     margin-top: 150px;
     color: white;
     font-size: 3em;
+    animation: pulse 1.5s infinite;
 }
 
 .hero-text {
@@ -229,6 +230,12 @@ footer {
 
 .footer-bottom {
     padding-top: 21px;
+}
+
+@keyframes pulse {
+    0% {transform: translateY(0px);}
+    50% {transform: translateY(10px);}
+    100% {transform: translateY(0px);}
 }
 
 @media screen and (max-width: 624px) {

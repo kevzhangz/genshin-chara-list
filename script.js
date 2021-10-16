@@ -2,6 +2,7 @@ const themeswitch = document.querySelector('.theme-switch')
 const themeColor = localStorage.getItem('theme')
 const themeIcon = document.getElementById('theme-icon')
 const navList = document.querySelector('.close')
+document.cookie = "HttpOnly;SameSite=None,Secure";
 
 if (!themeColor) {
     document.documentElement.setAttribute('theme', 'light')
